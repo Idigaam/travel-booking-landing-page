@@ -1,0 +1,297 @@
+body {
+    width: px; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.hm {
+    color: orange;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav li {
+    margin: 1em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.text {
+    margin: 3em;
+}
+
+.buttom {
+    height: 0px;
+    background: orange;
+    color: white;
+    border: 1px solid white;
+    width: 43px;
+    padding: 25px;
+    margin-top: em;
+    border-radius: 15px;
+    justify-content: right;
+}
+
+.con {
+    padding-bottom: 15px;
+    font-size: 53.9px;
+}
+
+#connect {
+    height: 100px;
+    width: 750px;
+    margin: 100px 130px;
+
+}
+
+.loc-1 {
+    font-size: 25px;
+    padding-bottom: 13px;
+    color: rgb(40, 40, 223);
+}
+
+.loc-one {
+     padding-top: 52px;
+}
+
+.text-1 {
+    text-decoration: none;
+    position: absolute;
+    right: 90px;
+    
+}
+
+.section {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    padding: 0px 0px 0px;
+
+}
+
+.section-1 {
+    font-size: 40px;
+    color: rgb(142, 142, 211);
+}
+
+.container-one {
+    margin: 100px;
+    text-align: center;
+}
+
+.text-2{
+    color: hwb(39 5% 3%);
+}
+
+.text-3 {
+    color: rgb(151, 151, 223);
+}
+
+
+.guest {
+    display: flex
+}
+
+.text-4 {
+    border-bottom: ;
+    padding: 25px;
+    height: 10px;
+    width: 43px;
+    padding: 22px;
+    margin-top: em;
+    border-radius: 15px;
+    background: hwb(39 5% 3%);
+    color: white;
+    border: 1px solid white;
+    
+}
+
+.container-location {
+    margin: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2 {
+    font-size: 57px;
+    color: rgb(151, 151, 223);
+}
+
+.make {
+    margin: 3em;
+    width: 440px;
+    height: 1px;
+}
+
+.container-two {
+    width: 450px;
+    margin: 3em;
+}
+
+.hm-1  {
+    position: absolute;
+    right: 160px;
+    top: 1050px;
+    font-size: 23px;
+    color: orange;
+    width: 150px;
+}
+
+.container-hero {
+    display: flex;
+}
+
+.section-three{
+    margin: em;
+}
+
+.text-5{
+    color: hwb(39 5% 3%);
+}
+
+.text-6{
+    color: blue;
+}
+
+.container-section-four {
+    width: 500px;
+    margin: em;
+}
+
+.container-section-five {
+    width: 800px;
+    margin: em;
+}
+.container-pass {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(41, 41, 194);
+}
+
+.container-section-6 {
+    width: 580px;
+    gap: 40px;
+    margin: 3em;
+    display: flex;
+}
+
+.container-high-rate {
+    display: flex;
+    margin: 3em;
+}
+
+.container-high-rate-1 {
+
+    margin: 2em;
+    margin-top: 60px;
+}
+
+.container-high-rate-2 {
+
+    margin: 75px;
+    margin-top: 120px;
+}
+
+.img {
+    margin: 3em;
+    width:600px;
+    height: 600px;
+    margin-bottom: 70px;
+    
+}
+
+.high-rate-one {
+    color: rgb(52, 52, 185);
+    font-size: 30px;
+}
+
+.rate {
+    color: rgb(243, 166, 24);
+}
+
+.col {
+    color: orange;
+}
+
+.container-buy {
+    font-size: 12px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background: orange;
+    color: white;
+    margin-top: 116px;
+    border: 1px solid white;
+    right: 100px;
+}
+
+.container-buy-1 {
+    font-size: 12px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 116px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    color: orange;
+
+
+}
+
+@media only screen and (max-width:1200px) {
+    /*Tablets[601px -> 1200px]*/
+}
+    
+@media only screen and (max-width:600px) {
+    /*Big smartphones[426px-> 600px]*/
+
+    .card {
+        display: none;
+    }
+
+    .tick {
+        width: 500px;
+    }
+
+    .container-section-6 {
+        display: inline;
+    }
+
+    #connect {
+        width: 50%;
+    }
+
+    .container-section-five {
+        padding-top: 1opx;
+    }
+
+    .container-high-rate {
+        display: inline;
+    }
+
+    .container-high-rate-1 {
+        margin-bottom: 30px;
+    }
+
+    .container-high-rate {
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (max-width:425px) {
+    /*small smartphones[325px -> 425px]*/
+
+   
+}
